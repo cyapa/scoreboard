@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.scoreboard-title{
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.scoreboard-listitem{
+  min-height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+.scoreboard-listitem-name{
+background-color: #00838f;
+float: left;
+width: 80%;
+color: white;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+}
+
+.scoreboard-listitem-score{
+  float: left;
+  width: 20%;
+  background-color: #006064;
+  color: white;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.scoreboard-submit{
+  padding-top: 20px;
+  text-align: center;
+}
+.scoreboard-new{
+  background-color: #0277bd;
+  color: white;
+  font-size: calc(8px + 2vmin);
+  padding-bottom: 5px;
+}
